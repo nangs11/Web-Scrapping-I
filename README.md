@@ -51,5 +51,3 @@ for tr in table.find_all('tr'):
 df = pd.DataFrame(data, columns=headers)
 df.to_csv('result.csv', index=False)
 ```
-
-The completed assignment should be uploaded to your personal public GitHub repository. Share the link to your GitHub repository containing the Jupyter Notebook and the resulting .csv file.
